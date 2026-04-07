@@ -1,0 +1,66 @@
+{
+  "name": "tcglookup",
+  "version": "0.1.0",
+  "description": "Official JavaScript / TypeScript SDK for the TCG Price Lookup API — live trading card prices for Pokemon, MTG, Yu-Gi-Oh!, One Piece, Lorcana, Star Wars: Unlimited, Flesh and Blood, and Pokemon Japan.",
+  "keywords": [
+    "tcg",
+    "trading-card-game",
+    "pokemon",
+    "mtg",
+    "magic-the-gathering",
+    "yugioh",
+    "one-piece-tcg",
+    "lorcana",
+    "card-prices",
+    "tcgplayer",
+    "ebay",
+    "psa",
+    "bgs",
+    "cgc",
+    "api-client",
+    "sdk"
+  ],
+  "homepage": "https://tcgpricelookup.com/tcg-api",
+  "bugs": "https://github.com/TCG-Price-Lookup/tcglookup-js/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCG-Price-Lookup/tcglookup-js.git"
+  },
+  "license": "MIT",
+  "author": "TCG Price Lookup",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "node scripts/smoke.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
