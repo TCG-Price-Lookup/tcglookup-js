@@ -1,4 +1,7 @@
-# tcglookup
+# @tcgpricelookup/sdk
+
+[![npm version](https://img.shields.io/npm/v/@tcgpricelookup/sdk.svg)](https://www.npmjs.com/package/@tcgpricelookup/sdk)
+[![license](https://img.shields.io/npm/l/@tcgpricelookup/sdk.svg)](https://github.com/TCG-Price-Lookup/tcglookup-js/blob/main/LICENSE)
 
 Official JavaScript / TypeScript SDK for the [TCG Price Lookup API](https://tcgpricelookup.com/tcg-api) — live trading card prices for **Pokemon, Magic: The Gathering, Yu-Gi-Oh!, One Piece, Disney Lorcana, Star Wars: Unlimited, Flesh and Blood,** and **Pokemon Japan**, with TCGPlayer market data, real eBay sold-listing averages, and PSA / BGS / CGC graded values.
 
@@ -16,17 +19,17 @@ Official JavaScript / TypeScript SDK for the [TCG Price Lookup API](https://tcgp
 ## Installation
 
 ```bash
-npm install tcglookup
+npm install @tcgpricelookup/sdk
 # or
-pnpm add tcglookup
+pnpm add @tcgpricelookup/sdk
 # or
-yarn add tcglookup
+yarn add @tcgpricelookup/sdk
 ```
 
 ## Quickstart
 
 ```ts
-import { TcgLookupClient } from "tcglookup";
+import { TcgLookupClient } from "@tcgpricelookup/sdk";
 
 const tcg = new TcgLookupClient({ apiKey: process.env.TCG_API_KEY! });
 
@@ -77,7 +80,7 @@ console.log(`Portfolio value: $${total.toFixed(2)}`);
 ### Price history (Trader plan and above)
 
 ```ts
-import { PlanAccessError } from "tcglookup";
+import { PlanAccessError } from "@tcgpricelookup/sdk";
 
 try {
   const history = await tcg.cards.history(card.id, { period: "30d" });
@@ -134,7 +137,7 @@ Every non-2xx response is mapped to a typed error you can `instanceof`-check:
 All of them extend `TcgLookupError` and expose `.status`, `.url`, `.body`, and `.message`.
 
 ```ts
-import { TcgLookupClient, RateLimitError } from "tcglookup";
+import { TcgLookupClient, RateLimitError } from "@tcgpricelookup/sdk";
 
 try {
   await tcg.cards.search({ q: "pikachu" });

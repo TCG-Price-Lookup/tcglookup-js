@@ -1,6 +1,9 @@
 {
-  "name": "tcglookup",
+  "name": "@tcgpricelookup/sdk",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Official JavaScript / TypeScript SDK for the TCG Price Lookup API — live trading card prices for Pokemon, MTG, Yu-Gi-Oh!, One Piece, Lorcana, Star Wars: Unlimited, Flesh and Blood, and Pokemon Japan.",
   "keywords": [
     "tcg",
