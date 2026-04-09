@@ -182,6 +182,7 @@ Same API, different language. Pick whichever fits your stack.
 - **[tcglookup-rs](https://github.com/TCG-Price-Lookup/tcglookup-rs)** — Rust (crates.io: [`tcglookup`](https://crates.io/crates/tcglookup))
 - **[tcglookup-php](https://github.com/TCG-Price-Lookup/tcglookup-php)** — PHP (Packagist: [`tcgpricelookup/sdk`](https://packagist.org/packages/tcgpricelookup/sdk))
 - **[tcglookup CLI](https://github.com/TCG-Price-Lookup/tcglookup-cli)** — Terminal client (npm: [`tcglookup`](https://www.npmjs.com/package/tcglookup))
+- **[tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples)** — Runnable code samples in 8 languages
 
 The full developer ecosystem index lives at **[awesome-tcg](https://github.com/TCG-Price-Lookup/awesome-tcg)**.
 
