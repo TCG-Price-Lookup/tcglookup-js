@@ -173,6 +173,18 @@ See <https://tcgpricelookup.com/pricing> for current quotas.
 
 The full HTTP API reference, parameters, and response shapes live at <https://tcgpricelookup.com/docs/api-reference>.
 
+## Sister SDKs
+
+Same API, different language. Pick whichever fits your stack.
+
+- **[tcglookup-py](https://github.com/TCG-Price-Lookup/tcglookup-py)** — Python (PyPI: [`tcglookup`](https://pypi.org/project/tcglookup/))
+- **[tcglookup-go](https://github.com/TCG-Price-Lookup/tcglookup-go)** — Go (`github.com/TCG-Price-Lookup/tcglookup-go`)
+- **[tcglookup-rs](https://github.com/TCG-Price-Lookup/tcglookup-rs)** — Rust (crates.io: [`tcglookup`](https://crates.io/crates/tcglookup))
+- **[tcglookup-php](https://github.com/TCG-Price-Lookup/tcglookup-php)** — PHP (Packagist: [`tcgpricelookup/sdk`](https://packagist.org/packages/tcgpricelookup/sdk))
+- **[tcglookup CLI](https://github.com/TCG-Price-Lookup/tcglookup-cli)** — Terminal client (npm: [`tcglookup`](https://www.npmjs.com/package/tcglookup))
+
+The full developer ecosystem index lives at **[awesome-tcg](https://github.com/TCG-Price-Lookup/awesome-tcg)**.
+
 ## License
 
 MIT © TCG Price Lookup
