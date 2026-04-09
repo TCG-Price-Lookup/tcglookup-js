@@ -183,6 +183,7 @@ Same API, different language. Pick whichever fits your stack.
 - **[tcglookup-php](https://github.com/TCG-Price-Lookup/tcglookup-php)** — PHP (Packagist: [`tcgpricelookup/sdk`](https://packagist.org/packages/tcgpricelookup/sdk))
 - **[tcglookup CLI](https://github.com/TCG-Price-Lookup/tcglookup-cli)** — Terminal client (npm: [`tcglookup`](https://www.npmjs.com/package/tcglookup))
 - **[tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples)** — Runnable code samples in 8 languages
+- **[tcg-discord-bot](https://github.com/TCG-Price-Lookup/tcg-discord-bot)** — Self-hosted Discord bot built on this SDK
 
 The full developer ecosystem index lives at **[awesome-tcg](https://github.com/TCG-Price-Lookup/awesome-tcg)**.
 
